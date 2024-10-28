@@ -1,4 +1,21 @@
 /* Reset */
+:root {
+    --light-green-txt: rgb(52 211 153);
+    --light-green-bg: #065f4680;
+    --light-light-blue-txt: rgb(56 189 248);
+    --light-light-blue-bg: #07598580;
+    --light-dark-blue-txt: rgb(96 165 250);
+    --light-dark-blue-bg: #1e40af80;
+    --light-purple-txt: rgb(192 132 252);
+    --light-purple-bg: #6b21a880;
+    --light-orange-txt: rgb(251 146 60);
+    --light-orange-bg: #9a341280;
+    --light-red-txt: rgb(251 113 133);
+    --light-red-bg: #9f123980;
+    --light-lime-txt: rgb(163 230 53);
+    --light-lime-bg: #3f621280;
+}
+
 * {
     margin: 0;
     padding: 0;
