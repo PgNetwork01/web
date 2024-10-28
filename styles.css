@@ -133,7 +133,6 @@ section h2 {
 
 .project h3 {
     color: #03a9f4;
-    margin-bottom: 0.5em;
 }
 
 .project p {
@@ -182,18 +181,33 @@ form button:hover {
 
 .language {
     background-color: #444;
-    color: #ddd;
     padding: 0.3em 0.8em;
     border-radius: 5px;
-    font-size: 0.85em;
-    font-weight: bold;
+    font-size: 10px;
+    font-weight: 600;
     transition: background 0.3s ease;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+
 }
 
 .language:hover {
     background-color: #03a9f4;
     color: #fff;
 }
+
+.project-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
 
 
 /* Footer */
