@@ -24,10 +24,11 @@ html {
 nav {
     position: fixed;
     width: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgb(3 169 244 / 12%);
     padding: 1em 0;
     text-align: center;
     z-index: 1000;
+    backdrop-filter: blur(15px);
 }
 
 nav ul {
