@@ -172,6 +172,30 @@ form button:hover {
     background: #0288d1;
 }
 
+/* Project Language Tags */
+.project-languages {
+    margin-top: 1em;
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+.language {
+    background-color: #444;
+    color: #ddd;
+    padding: 0.3em 0.8em;
+    border-radius: 5px;
+    font-size: 0.85em;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.language:hover {
+    background-color: #03a9f4;
+    color: #fff;
+}
+
+
 /* Footer */
 footer {
     background: #111;
